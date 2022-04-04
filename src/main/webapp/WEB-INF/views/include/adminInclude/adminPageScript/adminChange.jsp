@@ -8,15 +8,10 @@
 <script>
 $(document).ready(function(){
 	
-	/* var flag = '${param.password}';
-	alert(flag);
-	
-	function passwordAlert() {
-		if('${param.password}'===''){
-			
-		}
-	} */
-	
+	 var flag = '${param.password}';
+	 if(flag=='false'){
+		 alert("비밀번호가 틀립니다.")
+	 }
 	
     $("#boardUpdateButton").click(function(){
         // 확인 대화상자    
