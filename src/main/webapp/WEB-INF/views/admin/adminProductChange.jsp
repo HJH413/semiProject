@@ -27,8 +27,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 		<form name="formBoard" id="formBoard" enctype="multipart/form-data"
 			method="post">
-			<input name="product_Seq" type="hidden"
-				value="${admin_Product.product_Seq}" />
+		<input name="product_Seq" type="hidden"
+				value="${admin_Product.product_Seq}"/>
 			<!-- main -->
 			<div class="content-wrapper">
 				<!-- Content Header (Page header) -->
