@@ -60,6 +60,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <div class="form-group">
                 <label for="inputName">상품명</label>
                 <input type="text" id="inputName" class="form-control" name="product_Name">
+                <label for="inputPssword">비밀번호</label>
+                <input type="Password" id="inputPssword" class="form-control" name="product_Password">
               </div>
               <!--<div class="form-group">
                 <label for="inputProjectLeader">삭제 및 수정 비밀번호</label>

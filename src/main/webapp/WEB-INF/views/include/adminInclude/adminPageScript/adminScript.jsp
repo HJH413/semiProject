@@ -7,7 +7,7 @@
 <!-- Bootstrap -->
 <script src="../resources/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
-<script src="../resources/plugins/chart.js/Chart.min.js"></script>
+<!-- <script src="../resources/plugins/chart.js/Chart.min.js"></script> -->
 <!-- DataTables  & Plugins -->
 <script src="../resources/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../resources/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>

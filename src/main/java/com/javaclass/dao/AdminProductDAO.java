@@ -19,6 +19,6 @@ public interface AdminProductDAO {
 
 	public AdminProductVO adminGetProduct(AdminProductVO vo);
 	
-
+	public boolean checkProduct(String product_Seq, String product_Password);
 }	
 
