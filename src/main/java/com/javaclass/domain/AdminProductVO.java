@@ -9,8 +9,9 @@ import org.springframework.web.multipart.MultipartFile;
 public class AdminProductVO {
 	
 	String account_Id;
-	int product_Seq;
+	String product_Seq;
 	String product_Name;
+	String product_Password;
 	String product_MainImg;
 	String product_BrandImg;
 	String product_SubImg;
@@ -140,12 +141,19 @@ public class AdminProductVO {
 		this.account_Id = account_Id;
 	}
 
-	
-	public int getProduct_Seq() {
+	public String getProduct_Password() {
+		return product_Password;
+	}
+
+	public void setProduct_Password(String product_Password) {
+		this.product_Password = product_Password;
+	}
+
+	public String getProduct_Seq() {
 		return product_Seq;
 	}
 
-	public void setProduct_Seq(int product_Seq) {
+	public void setProduct_Seq(String product_Seq) {
 		this.product_Seq = product_Seq;
 	}
 
