@@ -1,5 +1,6 @@
 package com.javaclass.domain;
 
+
 public class AccountVO {
 	private String account_Id;
 	private String account_Password;

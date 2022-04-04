@@ -147,8 +147,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
-<%@ include file="../include/adminInclude/adminPageScript/adminScript.jsp" %> 
-<!-- Page specific script -->
-<%@ include file="../include/adminInclude/adminPageScript/adminHomeChartScript.jsp" %> 
+<%@ include file="../include/adminInclude/adminPageScript/adminScript.jsp" %>
+<%@ include file="../include/adminInclude/adminPageScript/adminHomeChartScript.jsp" %>
 </body>
 </html>

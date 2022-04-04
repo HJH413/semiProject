@@ -25,7 +25,7 @@
   		<value>com.javaclass.domain.AdminBoardVO</value>
   		<value>com.javaclass.domain.AdminProductVO</value>
   		<value>com.javaclass.domain.AdminListVO</value>
-  		<value>com.javaclass.domain.ChartVO</value>
+  		<value>com.javaclass.domain.AdminChartVO</value>
   		<!-- admin end -->
   		
   		<!-- account -->

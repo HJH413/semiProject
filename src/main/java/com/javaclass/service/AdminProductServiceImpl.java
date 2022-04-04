@@ -11,7 +11,7 @@ import com.javaclass.domain.AdminProductVO;
 
 
 @Service("productService")
-public class ProductServiceImpl implements ProductService {
+public class AdminProductServiceImpl implements AdminProductService {
 	@Autowired
 	private AdminProductDAOImpl productDAO;
 
@@ -35,5 +35,9 @@ public class ProductServiceImpl implements ProductService {
 	public AdminProductVO adminGetProduct(AdminProductVO avo) {
 		return productDAO.adminGetProduct(avo);
 	}
+	
+	public boolean checkProduct(String product_Seq, String product_Password) {
+        return productDAO.checkProduct(product_Seq, product_Password);
+    }
 	
 }

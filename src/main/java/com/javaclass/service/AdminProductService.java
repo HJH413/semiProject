@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.javaclass.domain.AdminProductVO;
 
-public interface ProductService {
+public interface AdminProductService {
 
 	
 	// ------------------------------------------------
@@ -22,6 +22,7 @@ public interface ProductService {
 	
 	AdminProductVO adminGetProduct(AdminProductVO avo);
 
-	
+	public boolean checkProduct(String product_Seq, String product_Password);
+
 
 }

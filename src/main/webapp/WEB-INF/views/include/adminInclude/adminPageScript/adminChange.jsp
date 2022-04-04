@@ -34,7 +34,22 @@ $(document).ready(function(){
         }
     });
     
-    $
+    $("#productUpdateButton").click(function(){
+        // 확인 대화상자    
+        if(confirm("수정하시겠습니까?")){
+            document.formBoard.action = "adminProductUpdate.do";
+            document.formBoard.submit();
+        }
+    });
+
+    $("#productDeleteButton").click(function(){
+        // 확인 대화상자 
+        if(confirm("삭제하시겠습니까?")){
+            document.formBoard.action = "adminProductDelete.do";
+            document.formBoard.submit();
+        }
+    });
+    
 });
 
 </script>
