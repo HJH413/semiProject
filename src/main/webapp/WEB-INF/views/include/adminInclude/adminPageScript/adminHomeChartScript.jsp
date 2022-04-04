@@ -8,21 +8,14 @@
 new Chart(document.getElementById("bar-chart"), {
     type: 'bar',
     data: {
-      labels: ["Africa", "Asia", "Europe", "Latin America", "North America", "North America"],
+      labels: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"],
       datasets: [
         {
           label: "월별 회원가입 수",
           backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#c45850"],
-          data: [2478,5267,734,784,433,784]
+          data: []
         }
       ]
-    },
-    options: {
-      legend: { display: false },
-      title: {
-        display: true,
-        text: 'Predicted world population (millions) in 2050'
-      }
     }
 });
 new Chart(document.getElementById("pie-chart2"), {
