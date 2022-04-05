@@ -1,2 +1,2 @@
-# semiProject
-세미프로젝트
+# semiProjcetGit
+오늘도 화이팅!
